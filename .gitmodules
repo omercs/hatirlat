@@ -9,7 +9,7 @@
 	url = https://omercs@github.com/omercs/TWTCommon.git
 [submodule "Libraries/OHAttributedLabel"]
 	path = Libraries/OHAttributedLabel
-	url = https://omercs@github.com/omercs/OHAttributedLabel.git
+	url = https://github.com/omercs/OHAttributedLabel.git
 [submodule "Libraries/RestKit"]
 	path = Libraries/RestKit
 	url = https://omercs@github.com/omercs/RestKit.git
