@@ -32,6 +32,8 @@
 		254F8EDA14E76FFA00CC7357 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 254F8ED914E76FFA00CC7357 /* libsqlite3.dylib */; };
 		254F8EDC14E7700600CC7357 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 254F8EDB14E7700600CC7357 /* libz.dylib */; };
 		254F8EDD14E7701700CC7357 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 254F8E6C14E76F5200CC7357 /* libRestKit.a */; };
+		254F8EE514E7729E00CC7357 /* AccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254F8EE414E7729E00CC7357 /* AccountController.m */; };
+		254F8EE814E772B000CC7357 /* ContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254F8EE714E772B000CC7357 /* ContactsController.m */; };
 		3201088596B4756681693705 /* libThree20UICommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3201088596B4756681693704 /* libThree20UICommon.a */; };
 		320A2827FEC940B25BC42C65 /* libThree20Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320A2827FEC940B25BC42C64 /* libThree20Core.a */; };
 		320A5A189C235877202780D5 /* libThree20Network.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320A5A189C235877202780D4 /* libThree20Network.a */; };
@@ -260,6 +262,10 @@
 		254F8E7F14E76FD400CC7357 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		254F8ED914E76FFA00CC7357 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		254F8EDB14E7700600CC7357 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		254F8EE314E7729E00CC7357 /* AccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountController.h; sourceTree = "<group>"; };
+		254F8EE414E7729E00CC7357 /* AccountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountController.m; sourceTree = "<group>"; };
+		254F8EE614E772B000CC7357 /* ContactsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsController.h; sourceTree = "<group>"; };
+		254F8EE714E772B000CC7357 /* ContactsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsController.m; sourceTree = "<group>"; };
 		3201088596B4756681693700 /* Three20UICommon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UICommon.xcodeproj; path = Libraries/three20/src/Three20UICommon/Three20UICommon.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320A2827FEC940B25BC42C60 /* Three20Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Core.xcodeproj; path = Libraries/three20/src/Three20Core/Three20Core.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320A5A189C235877202780D0 /* Three20Network.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Network.xcodeproj; path = Libraries/three20/src/Three20Network/Three20Network.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -390,6 +396,10 @@
 				254F8DFA14E76B2800CC7357 /* MessagesController.m */,
 				254F8E0014E76B2900CC7357 /* SchedulesController.h */,
 				254F8E0114E76B2900CC7357 /* SchedulesController.m */,
+				254F8EE314E7729E00CC7357 /* AccountController.h */,
+				254F8EE414E7729E00CC7357 /* AccountController.m */,
+				254F8EE614E772B000CC7357 /* ContactsController.h */,
+				254F8EE714E772B000CC7357 /* ContactsController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -739,6 +749,8 @@
 				254F8DF814E76B2800CC7357 /* AppDelegate.m in Sources */,
 				254F8DFB14E76B2800CC7357 /* MessagesController.m in Sources */,
 				254F8E0214E76B2900CC7357 /* SchedulesController.m in Sources */,
+				254F8EE514E7729E00CC7357 /* AccountController.m in Sources */,
+				254F8EE814E772B000CC7357 /* ContactsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
