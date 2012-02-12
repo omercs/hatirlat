@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Three20/Three20.h"
+#import <RestKit/RestKit.h>
 @interface AppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

@@ -23,6 +23,15 @@
 		254F8E0C14E76B2900CC7357 /* FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 254F8E0A14E76B2900CC7357 /* FirstViewController_iPad.xib */; };
 		254F8E0F14E76B2900CC7357 /* SecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 254F8E0D14E76B2900CC7357 /* SecondViewController_iPhone.xib */; };
 		254F8E1214E76B2900CC7357 /* SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 254F8E1014E76B2900CC7357 /* SecondViewController_iPad.xib */; };
+		254F8E7614E76FA000CC7357 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254F8E7514E76FA000CC7357 /* CFNetwork.framework */; };
+		254F8E7814E76FAD00CC7357 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254F8E7714E76FAD00CC7357 /* CoreData.framework */; };
+		254F8E7A14E76FB500CC7357 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254F8E7914E76FB500CC7357 /* Security.framework */; };
+		254F8E7C14E76FBF00CC7357 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254F8E7B14E76FBF00CC7357 /* MobileCoreServices.framework */; };
+		254F8E7E14E76FC800CC7357 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254F8E7D14E76FC800CC7357 /* SystemConfiguration.framework */; };
+		254F8E8014E76FD400CC7357 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 254F8E7F14E76FD400CC7357 /* libxml2.dylib */; };
+		254F8EDA14E76FFA00CC7357 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 254F8ED914E76FFA00CC7357 /* libsqlite3.dylib */; };
+		254F8EDC14E7700600CC7357 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 254F8EDB14E7700600CC7357 /* libz.dylib */; };
+		254F8EDD14E7701700CC7357 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 254F8E6C14E76F5200CC7357 /* libRestKit.a */; };
 		3201088596B4756681693705 /* libThree20UICommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3201088596B4756681693704 /* libThree20UICommon.a */; };
 		320A2827FEC940B25BC42C65 /* libThree20Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320A2827FEC940B25BC42C64 /* libThree20Core.a */; };
 		320A5A189C235877202780D5 /* libThree20Network.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320A5A189C235877202780D4 /* libThree20Network.a */; };
@@ -83,6 +92,41 @@
 			proxyType = 2;
 			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
 			remoteInfo = Three20UINavigatorUnitTests;
+		};
+		254F8E6B14E76F5200CC7357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 254F8E6114E76F5100CC7357 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		254F8E6D14E76F5200CC7357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 254F8E6114E76F5100CC7357 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		254F8E6F14E76F5200CC7357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 254F8E6114E76F5100CC7357 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		254F8E7114E76F5200CC7357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 254F8E6114E76F5100CC7357 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		254F8E7314E76F8E00CC7357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 254F8E6114E76F5100CC7357 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
 		};
 		3201088596B4756681693702 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -207,6 +251,15 @@
 		254F8E0B14E76B2900CC7357 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPad.xib; sourceTree = "<group>"; };
 		254F8E0E14E76B2900CC7357 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPhone.xib; sourceTree = "<group>"; };
 		254F8E1114E76B2900CC7357 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPad.xib; sourceTree = "<group>"; };
+		254F8E6114E76F5100CC7357 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = Libraries/RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		254F8E7514E76FA000CC7357 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		254F8E7714E76FAD00CC7357 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		254F8E7914E76FB500CC7357 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		254F8E7B14E76FBF00CC7357 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		254F8E7D14E76FC800CC7357 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		254F8E7F14E76FD400CC7357 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		254F8ED914E76FFA00CC7357 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		254F8EDB14E7700600CC7357 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		3201088596B4756681693700 /* Three20UICommon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UICommon.xcodeproj; path = Libraries/three20/src/Three20UICommon/Three20UICommon.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320A2827FEC940B25BC42C60 /* Three20Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Core.xcodeproj; path = Libraries/three20/src/Three20Core/Three20Core.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320A5A189C235877202780D0 /* Three20Network.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Network.xcodeproj; path = Libraries/three20/src/Three20Network/Three20Network.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -223,6 +276,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				254F8EDD14E7701700CC7357 /* libRestKit.a in Frameworks */,
+				254F8EDC14E7700600CC7357 /* libz.dylib in Frameworks */,
+				254F8EDA14E76FFA00CC7357 /* libsqlite3.dylib in Frameworks */,
+				254F8E8014E76FD400CC7357 /* libxml2.dylib in Frameworks */,
+				254F8E7E14E76FC800CC7357 /* SystemConfiguration.framework in Frameworks */,
+				254F8E7C14E76FBF00CC7357 /* MobileCoreServices.framework in Frameworks */,
+				254F8E7A14E76FB500CC7357 /* Security.framework in Frameworks */,
+				254F8E7814E76FAD00CC7357 /* CoreData.framework in Frameworks */,
+				254F8E7614E76FA000CC7357 /* CFNetwork.framework in Frameworks */,
 				3201088596B4756681693705 /* libThree20UICommon.a in Frameworks */,
 				320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */,
 				320A737074758E53BA54BE95 /* libThree20UINavigator.a in Frameworks */,
@@ -260,6 +322,15 @@
 		254F8DE614E76B2800CC7357 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				254F8EDB14E7700600CC7357 /* libz.dylib */,
+				254F8ED914E76FFA00CC7357 /* libsqlite3.dylib */,
+				254F8E7F14E76FD400CC7357 /* libxml2.dylib */,
+				254F8E7D14E76FC800CC7357 /* SystemConfiguration.framework */,
+				254F8E7B14E76FBF00CC7357 /* MobileCoreServices.framework */,
+				254F8E7914E76FB500CC7357 /* Security.framework */,
+				254F8E7714E76FAD00CC7357 /* CoreData.framework */,
+				254F8E7514E76FA000CC7357 /* CFNetwork.framework */,
+				254F8E6114E76F5100CC7357 /* RestKit.xcodeproj */,
 				3201088596B4756681693700 /* Three20UICommon.xcodeproj */,
 				320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */,
 				320A737074758E53BA54BE90 /* Three20UINavigator.xcodeproj */,
@@ -278,20 +349,12 @@
 		254F8DED14E76B2800CC7357 /* RemindIt */ = {
 			isa = PBXGroup;
 			children = (
+				254F8EE214E7716400CC7357 /* Views */,
+				254F8EE114E7715600CC7357 /* Models */,
+				254F8EDF14E7706000CC7357 /* Resources */,
+				254F8EDE14E7704900CC7357 /* Controllers */,
 				254F8DF614E76B2800CC7357 /* AppDelegate.h */,
 				254F8DF714E76B2800CC7357 /* AppDelegate.m */,
-				254F8DF914E76B2800CC7357 /* FirstViewController.h */,
-				254F8DFA14E76B2800CC7357 /* FirstViewController.m */,
-				254F8DFC14E76B2900CC7357 /* first.png */,
-				254F8DFE14E76B2900CC7357 /* first@2x.png */,
-				254F8E0014E76B2900CC7357 /* SecondViewController.h */,
-				254F8E0114E76B2900CC7357 /* SecondViewController.m */,
-				254F8E0314E76B2900CC7357 /* second.png */,
-				254F8E0514E76B2900CC7357 /* second@2x.png */,
-				254F8E0714E76B2900CC7357 /* FirstViewController_iPhone.xib */,
-				254F8E0A14E76B2900CC7357 /* FirstViewController_iPad.xib */,
-				254F8E0D14E76B2900CC7357 /* SecondViewController_iPhone.xib */,
-				254F8E1014E76B2900CC7357 /* SecondViewController_iPad.xib */,
 				254F8DEE14E76B2800CC7357 /* Supporting Files */,
 			);
 			path = RemindIt;
@@ -307,6 +370,65 @@
 				254F8DF514E76B2800CC7357 /* RemindIt-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		254F8E6214E76F5100CC7357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				254F8E6C14E76F5200CC7357 /* libRestKit.a */,
+				254F8E6E14E76F5200CC7357 /* RestKitTests.octest */,
+				254F8E7014E76F5200CC7357 /* RestKit.framework */,
+				254F8E7214E76F5200CC7357 /* RestKitFrameworkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		254F8EDE14E7704900CC7357 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				254F8DF914E76B2800CC7357 /* FirstViewController.h */,
+				254F8DFA14E76B2800CC7357 /* FirstViewController.m */,
+				254F8E0014E76B2900CC7357 /* SecondViewController.h */,
+				254F8E0114E76B2900CC7357 /* SecondViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		254F8EDF14E7706000CC7357 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				254F8EE014E7707F00CC7357 /* Images */,
+				254F8E0714E76B2900CC7357 /* FirstViewController_iPhone.xib */,
+				254F8E0A14E76B2900CC7357 /* FirstViewController_iPad.xib */,
+				254F8E0D14E76B2900CC7357 /* SecondViewController_iPhone.xib */,
+				254F8E1014E76B2900CC7357 /* SecondViewController_iPad.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		254F8EE014E7707F00CC7357 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				254F8DFC14E76B2900CC7357 /* first.png */,
+				254F8DFE14E76B2900CC7357 /* first@2x.png */,
+				254F8E0314E76B2900CC7357 /* second.png */,
+				254F8E0514E76B2900CC7357 /* second@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		254F8EE114E7715600CC7357 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		254F8EE214E7716400CC7357 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		3201088596B4756681693703 /* Products */ = {
@@ -386,6 +508,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				254F8E7414E76F8E00CC7357 /* PBXTargetDependency */,
 				3201088596B4756681693701 /* PBXTargetDependency */,
 				320D7DCCE32703ACAB9A45E1 /* PBXTargetDependency */,
 				320A737074758E53BA54BE91 /* PBXTargetDependency */,
@@ -418,6 +541,10 @@
 			productRefGroup = 254F8DE414E76B2800CC7357 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 254F8E6214E76F5100CC7357 /* Products */;
+					ProjectRef = 254F8E6114E76F5100CC7357 /* RestKit.xcodeproj */;
+				},
 				{
 					ProductGroup = 320D7DCCE32703ACAB9A45E3 /* Products */;
 					ProjectRef = 320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */;
@@ -502,6 +629,34 @@
 			fileType = wrapper.cfbundle;
 			path = UINavigatorUnitTests.octest;
 			remoteRef = 254F8E5E14E76E8200CC7357 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		254F8E6C14E76F5200CC7357 /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = 254F8E6B14E76F5200CC7357 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		254F8E6E14E76F5200CC7357 /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = 254F8E6D14E76F5200CC7357 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		254F8E7014E76F5200CC7357 /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = 254F8E6F14E76F5200CC7357 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		254F8E7214E76F5200CC7357 /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = 254F8E7114E76F5200CC7357 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		3201088596B4756681693704 /* libThree20UICommon.a */ = {
@@ -590,6 +745,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		254F8E7414E76F8E00CC7357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = 254F8E7314E76F8E00CC7357 /* PBXContainerItemProxy */;
+		};
 		3201088596B4756681693701 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Three20UICommon;
@@ -734,6 +894,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RemindIt/RemindIt-Prefix.pch";
 				INFOPLIST_FILE = "RemindIt/RemindIt-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -745,6 +909,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RemindIt/RemindIt-Prefix.pch";
 				INFOPLIST_FILE = "RemindIt/RemindIt-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
