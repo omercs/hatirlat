@@ -136,6 +136,10 @@
 		254F904614E773A000CC7357 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 254F904214E773A000CC7357 /* libTestFlight.a */; };
 		254F904714E773A000CC7357 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 254F904314E773A000CC7357 /* README.txt */; };
 		254F904814E773A000CC7357 /* release_notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 254F904414E773A000CC7357 /* release_notes.txt */; };
+		254F904A14E7745E00CC7357 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254F904914E7745E00CC7357 /* CoreTelephony.framework */; };
+		254F904C14E7746C00CC7357 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254F904B14E7746C00CC7357 /* AudioToolbox.framework */; };
+		254F904E14E7747D00CC7357 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254F904D14E7747D00CC7357 /* StoreKit.framework */; };
+		254F905014E774C000CC7357 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254F904F14E774C000CC7357 /* MessageUI.framework */; };
 		3201088596B4756681693705 /* libThree20UICommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3201088596B4756681693704 /* libThree20UICommon.a */; };
 		320A2827FEC940B25BC42C65 /* libThree20Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320A2827FEC940B25BC42C64 /* libThree20Core.a */; };
 		320A5A189C235877202780D5 /* libThree20Network.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320A5A189C235877202780D4 /* libThree20Network.a */; };
@@ -578,6 +582,10 @@
 		254F904314E773A000CC7357 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		254F904414E773A000CC7357 /* release_notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.txt; sourceTree = "<group>"; };
 		254F904514E773A000CC7357 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		254F904914E7745E00CC7357 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		254F904B14E7746C00CC7357 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		254F904D14E7747D00CC7357 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		254F904F14E774C000CC7357 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		3201088596B4756681693700 /* Three20UICommon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UICommon.xcodeproj; path = Libraries/three20/src/Three20UICommon/Three20UICommon.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320A2827FEC940B25BC42C60 /* Three20Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Core.xcodeproj; path = Libraries/three20/src/Three20Core/Three20Core.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320A5A189C235877202780D0 /* Three20Network.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Network.xcodeproj; path = Libraries/three20/src/Three20Network/Three20Network.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -594,6 +602,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				254F905014E774C000CC7357 /* MessageUI.framework in Frameworks */,
+				254F904E14E7747D00CC7357 /* StoreKit.framework in Frameworks */,
+				254F904C14E7746C00CC7357 /* AudioToolbox.framework in Frameworks */,
+				254F904A14E7745E00CC7357 /* CoreTelephony.framework in Frameworks */,
 				254F8EDD14E7701700CC7357 /* libRestKit.a in Frameworks */,
 				254F8EDC14E7700600CC7357 /* libz.dylib in Frameworks */,
 				254F8EDA14E76FFA00CC7357 /* libsqlite3.dylib in Frameworks */,
@@ -625,6 +637,10 @@
 		254F8DD814E76B2800CC7357 = {
 			isa = PBXGroup;
 			children = (
+				254F904F14E774C000CC7357 /* MessageUI.framework */,
+				254F904D14E7747D00CC7357 /* StoreKit.framework */,
+				254F904B14E7746C00CC7357 /* AudioToolbox.framework */,
+				254F904914E7745E00CC7357 /* CoreTelephony.framework */,
 				254F8DED14E76B2800CC7357 /* RemindIt */,
 				254F8DE614E76B2800CC7357 /* Frameworks */,
 				254F8DE414E76B2800CC7357 /* Products */,
