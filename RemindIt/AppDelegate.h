@@ -8,11 +8,22 @@
 
 #import <UIKit/UIKit.h>
 #import "Three20/Three20.h"
-#import <RestKit/RestKit.h>
-@interface AppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
+#import "TabBarKit.h"
+@interface AppDelegate : UIResponder <UIApplicationDelegate, TTNavigatorDelegate,TBKTabBarControllerDelegate,UIAlertViewDelegate>
+{
+    UIImageView* _backgroundImageView;
+    BOOL _resumeSession;
+}
 
-@property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) UITabBarController *tabBarController;
+
++(AppDelegate*) sharedApplicationDelegate;
+- (void)setupRestKit;
+- (void)resumeSession;
+
 
 @end
+
+
+ 
+ 
