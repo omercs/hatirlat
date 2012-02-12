@@ -13,16 +13,16 @@
 		254F8DF214E76B2800CC7357 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 254F8DF014E76B2800CC7357 /* InfoPlist.strings */; };
 		254F8DF414E76B2800CC7357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 254F8DF314E76B2800CC7357 /* main.m */; };
 		254F8DF814E76B2800CC7357 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 254F8DF714E76B2800CC7357 /* AppDelegate.m */; };
-		254F8DFB14E76B2800CC7357 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254F8DFA14E76B2800CC7357 /* FirstViewController.m */; };
+		254F8DFB14E76B2800CC7357 /* MessagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254F8DFA14E76B2800CC7357 /* MessagesController.m */; };
 		254F8DFD14E76B2900CC7357 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 254F8DFC14E76B2900CC7357 /* first.png */; };
 		254F8DFF14E76B2900CC7357 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 254F8DFE14E76B2900CC7357 /* first@2x.png */; };
-		254F8E0214E76B2900CC7357 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254F8E0114E76B2900CC7357 /* SecondViewController.m */; };
+		254F8E0214E76B2900CC7357 /* SchedulesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254F8E0114E76B2900CC7357 /* SchedulesController.m */; };
 		254F8E0414E76B2900CC7357 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 254F8E0314E76B2900CC7357 /* second.png */; };
 		254F8E0614E76B2900CC7357 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 254F8E0514E76B2900CC7357 /* second@2x.png */; };
-		254F8E0914E76B2900CC7357 /* FirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 254F8E0714E76B2900CC7357 /* FirstViewController_iPhone.xib */; };
-		254F8E0C14E76B2900CC7357 /* FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 254F8E0A14E76B2900CC7357 /* FirstViewController_iPad.xib */; };
-		254F8E0F14E76B2900CC7357 /* SecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 254F8E0D14E76B2900CC7357 /* SecondViewController_iPhone.xib */; };
-		254F8E1214E76B2900CC7357 /* SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 254F8E1014E76B2900CC7357 /* SecondViewController_iPad.xib */; };
+		254F8E0914E76B2900CC7357 /* MessagesController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 254F8E0714E76B2900CC7357 /* MessagesController_iPhone.xib */; };
+		254F8E0C14E76B2900CC7357 /* MessagesController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 254F8E0A14E76B2900CC7357 /* MessagesController_iPad.xib */; };
+		254F8E0F14E76B2900CC7357 /* Schedules_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 254F8E0D14E76B2900CC7357 /* Schedules_iPhone.xib */; };
+		254F8E1214E76B2900CC7357 /* Schedules_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 254F8E1014E76B2900CC7357 /* Schedules_iPad.xib */; };
 		254F8E7614E76FA000CC7357 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254F8E7514E76FA000CC7357 /* CFNetwork.framework */; };
 		254F8E7814E76FAD00CC7357 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254F8E7714E76FAD00CC7357 /* CoreData.framework */; };
 		254F8E7A14E76FB500CC7357 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254F8E7914E76FB500CC7357 /* Security.framework */; };
@@ -239,18 +239,18 @@
 		254F8DF514E76B2800CC7357 /* RemindIt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RemindIt-Prefix.pch"; sourceTree = "<group>"; };
 		254F8DF614E76B2800CC7357 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		254F8DF714E76B2800CC7357 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		254F8DF914E76B2800CC7357 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		254F8DFA14E76B2800CC7357 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		254F8DF914E76B2800CC7357 /* MessagesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagesController.h; sourceTree = "<group>"; };
+		254F8DFA14E76B2800CC7357 /* MessagesController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessagesController.m; sourceTree = "<group>"; };
 		254F8DFC14E76B2900CC7357 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		254F8DFE14E76B2900CC7357 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		254F8E0014E76B2900CC7357 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		254F8E0114E76B2900CC7357 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		254F8E0014E76B2900CC7357 /* SchedulesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchedulesController.h; sourceTree = "<group>"; };
+		254F8E0114E76B2900CC7357 /* SchedulesController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchedulesController.m; sourceTree = "<group>"; };
 		254F8E0314E76B2900CC7357 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		254F8E0514E76B2900CC7357 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		254F8E0814E76B2900CC7357 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPhone.xib; sourceTree = "<group>"; };
-		254F8E0B14E76B2900CC7357 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPad.xib; sourceTree = "<group>"; };
+		254F8E0814E76B2900CC7357 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MessagesController_iPhone.xib; sourceTree = "<group>"; };
+		254F8E0B14E76B2900CC7357 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MessagesController_iPad.xib; sourceTree = "<group>"; };
 		254F8E0E14E76B2900CC7357 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPhone.xib; sourceTree = "<group>"; };
-		254F8E1114E76B2900CC7357 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPad.xib; sourceTree = "<group>"; };
+		254F8E1114E76B2900CC7357 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Schedules_iPad.xib; sourceTree = "<group>"; };
 		254F8E6114E76F5100CC7357 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = Libraries/RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
 		254F8E7514E76FA000CC7357 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		254F8E7714E76FAD00CC7357 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -386,10 +386,10 @@
 		254F8EDE14E7704900CC7357 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				254F8DF914E76B2800CC7357 /* FirstViewController.h */,
-				254F8DFA14E76B2800CC7357 /* FirstViewController.m */,
-				254F8E0014E76B2900CC7357 /* SecondViewController.h */,
-				254F8E0114E76B2900CC7357 /* SecondViewController.m */,
+				254F8DF914E76B2800CC7357 /* MessagesController.h */,
+				254F8DFA14E76B2800CC7357 /* MessagesController.m */,
+				254F8E0014E76B2900CC7357 /* SchedulesController.h */,
+				254F8E0114E76B2900CC7357 /* SchedulesController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -398,10 +398,10 @@
 			isa = PBXGroup;
 			children = (
 				254F8EE014E7707F00CC7357 /* Images */,
-				254F8E0714E76B2900CC7357 /* FirstViewController_iPhone.xib */,
-				254F8E0A14E76B2900CC7357 /* FirstViewController_iPad.xib */,
-				254F8E0D14E76B2900CC7357 /* SecondViewController_iPhone.xib */,
-				254F8E1014E76B2900CC7357 /* SecondViewController_iPad.xib */,
+				254F8E0714E76B2900CC7357 /* MessagesController_iPhone.xib */,
+				254F8E0A14E76B2900CC7357 /* MessagesController_iPad.xib */,
+				254F8E0D14E76B2900CC7357 /* Schedules_iPhone.xib */,
+				254F8E1014E76B2900CC7357 /* Schedules_iPad.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -721,10 +721,10 @@
 				254F8DFF14E76B2900CC7357 /* first@2x.png in Resources */,
 				254F8E0414E76B2900CC7357 /* second.png in Resources */,
 				254F8E0614E76B2900CC7357 /* second@2x.png in Resources */,
-				254F8E0914E76B2900CC7357 /* FirstViewController_iPhone.xib in Resources */,
-				254F8E0C14E76B2900CC7357 /* FirstViewController_iPad.xib in Resources */,
-				254F8E0F14E76B2900CC7357 /* SecondViewController_iPhone.xib in Resources */,
-				254F8E1214E76B2900CC7357 /* SecondViewController_iPad.xib in Resources */,
+				254F8E0914E76B2900CC7357 /* MessagesController_iPhone.xib in Resources */,
+				254F8E0C14E76B2900CC7357 /* MessagesController_iPad.xib in Resources */,
+				254F8E0F14E76B2900CC7357 /* Schedules_iPhone.xib in Resources */,
+				254F8E1214E76B2900CC7357 /* Schedules_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -737,8 +737,8 @@
 			files = (
 				254F8DF414E76B2800CC7357 /* main.m in Sources */,
 				254F8DF814E76B2800CC7357 /* AppDelegate.m in Sources */,
-				254F8DFB14E76B2800CC7357 /* FirstViewController.m in Sources */,
-				254F8E0214E76B2900CC7357 /* SecondViewController.m in Sources */,
+				254F8DFB14E76B2800CC7357 /* MessagesController.m in Sources */,
+				254F8E0214E76B2900CC7357 /* SchedulesController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -796,36 +796,36 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		254F8E0714E76B2900CC7357 /* FirstViewController_iPhone.xib */ = {
+		254F8E0714E76B2900CC7357 /* MessagesController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				254F8E0814E76B2900CC7357 /* en */,
 			);
-			name = FirstViewController_iPhone.xib;
+			name = MessagesController_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		254F8E0A14E76B2900CC7357 /* FirstViewController_iPad.xib */ = {
+		254F8E0A14E76B2900CC7357 /* MessagesController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				254F8E0B14E76B2900CC7357 /* en */,
 			);
-			name = FirstViewController_iPad.xib;
+			name = MessagesController_iPad.xib;
 			sourceTree = "<group>";
 		};
-		254F8E0D14E76B2900CC7357 /* SecondViewController_iPhone.xib */ = {
+		254F8E0D14E76B2900CC7357 /* Schedules_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				254F8E0E14E76B2900CC7357 /* en */,
 			);
-			name = SecondViewController_iPhone.xib;
+			name = Schedules_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		254F8E1014E76B2900CC7357 /* SecondViewController_iPad.xib */ = {
+		254F8E1014E76B2900CC7357 /* Schedules_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				254F8E1114E76B2900CC7357 /* en */,
 			);
-			name = SecondViewController_iPad.xib;
+			name = Schedules_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

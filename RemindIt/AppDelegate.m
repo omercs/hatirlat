@@ -8,9 +8,9 @@
 
 #import "AppDelegate.h"
 
-#import "FirstViewController.h"
+#import "MessagesController.h"
 
-#import "SecondViewController.h"
+#import "SchedulesController.h"
 
 @implementation AppDelegate
 
@@ -30,11 +30,11 @@
     // Override point for customization after application launch.
     UIViewController *viewController1, *viewController2;
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        viewController1 = [[[FirstViewController alloc] initWithNibName:@"FirstViewController_iPhone" bundle:nil] autorelease];
-        viewController2 = [[[SecondViewController alloc] initWithNibName:@"SecondViewController_iPhone" bundle:nil] autorelease];
+        viewController1 = [[[MessagesController alloc] initWithNibName:@"FirstViewController_iPhone" bundle:nil] autorelease];
+        viewController2 = [[[SchedulesController alloc] initWithNibName:@"SecondViewController_iPhone" bundle:nil] autorelease];
     } else {
-        viewController1 = [[[FirstViewController alloc] initWithNibName:@"FirstViewController_iPad" bundle:nil] autorelease];
-        viewController2 = [[[SecondViewController alloc] initWithNibName:@"SecondViewController_iPad" bundle:nil] autorelease];
+        viewController1 = [[[MessagesController alloc] initWithNibName:@"FirstViewController_iPad" bundle:nil] autorelease];
+        viewController2 = [[[SchedulesController alloc] initWithNibName:@"SecondViewController_iPad" bundle:nil] autorelease];
     }
     self.tabBarController = [[[UITabBarController alloc] init] autorelease];
     self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, nil];
