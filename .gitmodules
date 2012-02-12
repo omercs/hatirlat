@@ -3,7 +3,7 @@
 	url = https://omercs@github.com/omercs/Kiwi.git
 [submodule "Libraries/UISpec"]
 	path = Libraries/UISpec
-	url = https://omercs@github.com/omercs/UISpec.git
+	url = https://github.com/omercs/UISpec.git
 [submodule "Libraries/TWTCommon"]
 	path = Libraries/TWTCommon
 	url = https://omercs@github.com/omercs/TWTCommon.git
