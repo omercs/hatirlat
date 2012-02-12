@@ -1,0 +1,21 @@
+[submodule "Libraries/Kiwi"]
+	path = Libraries/Kiwi
+	url = https://omercs@github.com/omercs/Kiwi.git
+[submodule "Libraries/UISpec"]
+	path = Libraries/UISpec
+	url = https://omercs@github.com/omercs/UISpec.git
+[submodule "Libraries/TWTCommon"]
+	path = Libraries/TWTCommon
+	url = https://omercs@github.com/omercs/TWTCommon.git
+[submodule "Libraries/OHAttributedLabel"]
+	path = Libraries/OHAttributedLabel
+	url = https://omercs@github.com/omercs/OHAttributedLabel.git
+[submodule "Libraries/RestKit"]
+	path = Libraries/RestKit
+	url = https://omercs@github.com/omercs/RestKit.git
+[submodule "Libraries/TabBarKit"]
+	path = Libraries/TabBarKit
+	url = https://omercs@github.com/omercs/TabBarKit.git
+[submodule "Libraries/three20"]
+	path = Libraries/three20
+	url = https://omercs@github.com/omercs/three20.git
